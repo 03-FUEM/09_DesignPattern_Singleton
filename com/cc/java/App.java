@@ -4,6 +4,7 @@ public class App {
     
     public static void main(String[] args) {
 
+       
         Singleton obj1 = Singleton.getInstance();
         Helper.ausgabe(obj1);
         obj1.actOnEvent();
